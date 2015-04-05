@@ -1,0 +1,440 @@
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\EntityFramework.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\WebGrease.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\EntityFramework.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojResolveAssemblyReference.cache
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+C:\Users\LNT\Dropbox\Nhom Web1\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\EntityFramework.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\WebGrease.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\EntityFramework.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojResolveAssemblyReference.cache
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\EntityFramework.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\WebGrease.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\CaptchaMvc.pdb
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\CaptchaMvc.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\EntityFramework.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojResolveAssemblyReference.cache
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\bin\vi\NhaTroDBFirstVer1.resources.dll
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.resources
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.vi.resources
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csproj.GenerateResource.Cache
+C:\Users\Vinh\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer1\NhaTroDBFirstVer1\obj\Debug\vi\NhaTroDBFirstVer1.resources.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\EntityFramework.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\WebGrease.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\EntityFramework.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\EntityFramework.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\WebGrease.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\EntityFramework.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\PagedList.dll
+C:\Users\LNT\Dropbox\Nhom Web1\Project Thach beoooo\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\PagedList.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\PagedList.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\PagedList.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\EntityFramework.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\PagedList.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\WebGrease.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\PagedList.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\EntityFramework.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\NhaTroDBFirstVer2\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojResolveAssemblyReference.cache
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.resources
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.en.resources
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csproj.GenerateResource.Cache
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\en\NhaTroDBFirstVer1.resources.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\EntityFramework.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\PagedList.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\WebGrease.dll
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\PagedList.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\EntityFramework.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+E:\_III_hk2\project_Visual\NhaTroDBFirstVer2_quang\NhaTroDBFirstVer1\obj\Debug\en\NhaTroDBFirstVer1.resources.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\en\NhaTroDBFirstVer1.resources.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\EntityFramework.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\PagedList.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\WebGrease.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\PagedList.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\EntityFramework.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojResolveAssemblyReference.cache
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.resources
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.en.resources
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csproj.GenerateResource.Cache
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\en\NhaTroDBFirstVer1.resources.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+C:\Users\LNT\Dropbox\Nhom Web1\TRUNG BIG\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\en\NhaTroDBFirstVer1.resources.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\EntityFramework.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\PagedList.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\WebGrease.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\PagedList.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\EntityFramework.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.resources
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.en.resources
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csproj.GenerateResource.Cache
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\en\NhaTroDBFirstVer1.resources.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+C:\Users\10124_000\Dropbox\Nhom Web1\QUANG MINI\template\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojResolveAssemblyReference.cache
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\en\NhaTroDBFirstVer1.resources.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\EntityFramework.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\PagedList.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\WebGrease.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\PagedList.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\EntityFramework.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.resources
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.en.resources
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csproj.GenerateResource.Cache
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\en\NhaTroDBFirstVer1.resources.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+C:\Users\LNT\Dropbox\Nhom Web1\HANG HOT 21 - 6 -2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\en\NhaTroDBFirstVer1.resources.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\EntityFramework.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\PagedList.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\WebGrease.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\PagedList.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\EntityFramework.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojResolveAssemblyReference.cache
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.resources
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.en.resources
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csproj.GenerateResource.Cache
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\en\NhaTroDBFirstVer1.resources.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+D:\Dropbox\Nhom Web1\QUANG MINI\last 21-06-2013\NhaTroDBFirstVer2_quang_fb\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\NhaTroDBFirstVer1.pdb
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\en\NhaTroDBFirstVer1.resources.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Antlr3.Runtime.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.AspNet.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.Core.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.OAuth.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.OpenId.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\EntityFramework.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Google.GData.Client.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Google.GData.Extensions.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Google.GData.Photos.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Microsoft.QualityTools.Testing.Fakes.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Microsoft.Web.Infrastructure.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Microsoft.Web.WebPages.OAuth.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Newtonsoft.Json.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\PagedList.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Http.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Mvc.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Optimization.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Providers.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Razor.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.WebPages.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\WebGrease.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\WebMatrix.Data.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\WebMatrix.WebData.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Org.Mentalis.Security.Cryptography.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Mono.Math.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\CaptchaMvc.pdb
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\CaptchaMvc.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.AspNet.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.Core.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.OAuth.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.OpenId.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Microsoft.Web.WebPages.OAuth.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\PagedList.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\EntityFramework.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Newtonsoft.Json.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Net.Http.Formatting.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Http.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Http.WebHost.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Mvc.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.Razor.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.WebPages.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.WebPages.Deployment.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\System.Web.WebPages.Razor.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\WebMatrix.Data.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\WebMatrix.WebData.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Org.Mentalis.Security.Cryptography.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\bin\Mono.Math.xml
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojFakesResolveAssemblyReference.cache
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csprojResolveAssemblyReference.cache
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.resources
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.Views.Shared.Resource.en.resources
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.csproj.GenerateResource.Cache
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\obj\Debug\en\NhaTroDBFirstVer1.resources.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.dll
+G:\_CODE\NhaTroDBFirstVer_FINALver13(Finalest)\NhaTroDBFirstVer1\obj\Debug\NhaTroDBFirstVer1.pdb

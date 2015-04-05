@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "UserControlPartial";
+}
+
+<nav>
+    <div class="wrap-nav zerogrid">
+        <div class="menu">
+            <ul>
+                <li>@Html.ActionLink("Đăng tin","Create", "Room")</li>
+                <li>@Html.ActionLink("Thông tin tài khoản", "Details", "User")</li>
+                <li>@Html.ActionLink("Đổi mật khẩu", "DoiMatKhau", "User")</li>
+                <li>@Html.ActionLink("Tin đã lưu", "DanhsachTinLuu", "Room")</li>
+                <li>@Html.ActionLink("Tin đã đăng", "DanhSachTinDang", "Room")</li>
+                <li>@Html.ActionLink("Nâng cấp", "NangCap", "User")</li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "NangCapUser";
+}
+
+@Html.Partial("UserControlPartial")
+<h2>NangCapUser</h2>
+@model NhaTroDBFirstVer1.Models.PayPal
+
+@{
+    ViewBag.Title = "NangCapUser";
+}
+@Scripts.Render("~/bundles/jquery")
+
+<form id="frm" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+    @Html.HiddenFor(model => model.cmd)
+    @Html.HiddenFor(model => model.business)
+    @Html.HiddenFor(model => model.upload)
+    @Html.HiddenFor(model => model.currency_code)
+    @Html.HiddenFor(model => model.@return)
+    @Html.HiddenFor(model => model.cancel_return)
+    @Html.HiddenFor(model => model.notify_url)
+    @Html.HiddenFor(model => model.shipping_1)
+    @Html.HiddenFor(model => model.tax_cart)
+
+ 
+</form>
+
+<div style="text-align: center">
+    Đang kết nối trang Paypal... 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("form").submit();
+    });
+</script>

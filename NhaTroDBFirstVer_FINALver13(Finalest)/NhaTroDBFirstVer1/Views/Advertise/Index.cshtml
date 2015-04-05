@@ -1,0 +1,62 @@
+﻿@model IEnumerable<NhaTroDBFirstVer1.Models.Advertise>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.Partial("AdminControlPartial")
+<div id="main-content" class="col-3-3">
+    <div class="wrap-col">
+<article>
+    <div class="titleInfo">QUẢN LÍ QUẢNG CÁO</div>
+    
+</article>
+<div class="btnNhap">@Html.ActionLink("Thêm mới quảng cáo", "Create")</div>
+        </div>
+    </div>
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AdID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.URL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.URL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.UserName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.AdID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.AdID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.AdID })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<!-- end of center content -->
+

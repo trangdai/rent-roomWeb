@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "ThongTin";
+}
+
+@Html.Partial("UserControlPartial")
+<div class="center_content_control">
+    <div class="center_title_bar">Thông tin tài khoản</div>
+
+
+
+    <div class="prod_box_big">
+        <div class="top_prod_box_big"></div>
+        <div class="center_prod_box_big">
+            <div class="contact_form">
+               @if (ViewBag.Profile != null)
+                {
+                    <div class="form_row">
+                        <label class="contact"><strong>Họ và tên:</strong></label>
+                        <label class="ThongTin"><strong>@ViewBag.Profile.FullName</strong></label>
+                         
+                    </div>
+                    
+                    <div class="form_row">
+                        <label class="contact"><strong>Số điện thoại:</strong></label>
+                        <label class="ThongTin"><strong>@ViewBag.Profile.PhoneNumber</strong></label>
+                    </div>
+                    
+                    <div class="form_row">
+                        <label class="contact"><strong>Email:</strong></label>
+                        <label class="ThongTin"><strong>@ViewBag.Profile.Email</strong></label>
+                    </div>
+                    
+                    <div class="form_row">
+                        <label class="contact"><strong>Địa chỉ:</strong></label>
+                        <label class="ThongTin"><strong>@ViewBag.Profile.Address</strong></label>
+                    </div>
+                   
+                   <div class="form_row">
+                        <label class="contact"><strong>Loại tài khoản:</strong></label>
+                       <label class="ThongTin"><strong>@ViewBag.Profile.Roles</strong></label>
+
+                        @Html.ActionLink("Nâng cấp", "NangCap", new { id=ViewBag.Profile.UserID })
+                    </div>
+
+                    <div class="form_row">
+                        @Html.ActionLink("Cập nhật thông tin", "Edit", new { id=ViewBag.Profile.UserID })
+                    </div>
+                }
+            </div>
+
+
+        </div>
+        <div class="bottom_prod_box_big"></div>
+    </div>
+</div>
+<!-- end of center content -->

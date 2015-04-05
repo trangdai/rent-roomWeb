@@ -1,0 +1,42 @@
+﻿@model IEnumerable<NhaTroDBFirstVer1.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+@Html.Partial("AdminControlPartial")
+<h2>Index</h2>
+<table>
+    <tr>
+        <th>
+            Tài khoản  |
+        </th>
+        <th>
+           Họ và tên |
+        </th>
+        <th>
+            Loại tài khoản |
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Roles)
+        </td>
+        <td>
+           
+            @Html.ActionLink("Nâng cấp", "UpdateRoles", new { id=item.UserID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.UserID })
+            @Html.ActionLink("Edit", "Edit", new { id=item.UserID }) |
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,226 @@
+﻿@model NhaTroDBFirstVer1.Models.Room
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClsqqIJZz4ANTtAQPWb6SzdDeyQ7TJOZM&sensor=false"></script>
+
+<div id="main-content" class="col-2-3">
+    <div class="wrap-col">
+        <div class="btnNhap"><a href="https://www.facebook.com/sharer/sharer.php?u=@Request.Url.AbsoluteUri" target="_blank">[Share on Facebook]</a></div>
+        
+        <article>
+            <div class="titleInfo">
+                @Html.DisplayFor(model => model.RoomName)
+            </div>
+        </article>
+        <article>
+            <div class="form_row">
+                <label class="contact"><strong>Ngày đăng tin:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.StartDate)</strong></label>
+            </div>
+
+            <div class="form_row">
+                <label class="contact"><strong>Địa chỉ:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.Address)</strong></label>
+            </div>
+
+            <div class="form_row">
+                <label class="contact"><strong>Giá:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.Price)</strong></label>
+            </div>
+
+            <div class="form_row">
+                <label class="contact"><strong>Mô tả:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.Description)</strong></label>
+            </div>
+
+            <div class="form_row">
+                <label class="contact"><strong>Diện tích:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.Area)</strong></label>
+            </div>
+
+            <div class="form_row">
+                <label class="contact"><strong>Trạng thái phòng:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.RoomStatus1.Contents)</strong></label>
+            </div>
+            <div class="form_row">
+                <label class="contact"><strong>Người đăng:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.User.FullName)</strong></label>
+            </div>
+        </article>
+
+        @*xem hình ảnh*@
+        <div class="clear_both"></div>
+        <div class="gallery_top"></div>
+        <div class="gallery_content">
+            <div class="gallery_thumbnails">
+                <a href="@Model.Image" >
+                    <img src="@Model.Image" class="gale" /></a>
+                <div class="clear_both"></div>
+            </div>
+            <div class="gallery_preview" >
+                <a href="@Model.Image" ></a>
+            </div>
+            <div class="clear_both"></div>
+            <div class="gallery_caption"></div>
+            <div class="clear_both"></div>
+            <div class="gallery_preload_area"></div>
+        </div>
+
+
+        <article>
+
+            <div class="form_row">
+                <label class="contact"><strong>Thông tin liên hệ</strong></label>
+            </div>
+
+            <div class="form_row">
+                <label class="contact"><strong>Họ và tên:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.HoVaTen)</strong></label>
+            </div>
+
+            <div class="form_row">
+                <label class="contact"><strong>Địa chỉ:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.DiaChi)</strong></label>
+            </div>
+
+            <div class="form_row">
+                <label class="contact"><strong>Địa chỉ:</strong></label>
+                <label class="ThongTin"><strong>@Html.DisplayFor(model => model.SDT)</strong></label>
+            </div>
+        </article>
+        <article>
+            <br />
+            <div id="map_canvas" style="width: 550px; height: 480px;">
+            </div>
+            <br />
+        </article>
+        <article>
+            <div class="btnNhap"> [@Html.ActionLink("Lưu tin này", "SaveTin", "Room", new { id = Model.RoomID }, null)]   [@Html.ActionLink("Trở về trang chủ", "Index", "Home")]</div> 
+        </article>
+
+        <h2>@ViewRes.Resource.Comment</h2>
+        <div id="ketquaComment">
+            <article>
+                @foreach (var item in ViewBag.Comment)
+                {
+                    <span class="info">@item.Time</span>
+                    <img src="/Content/themes/base/images/images.jpg" alt=""/>
+                    <p>@item.Contents</p>
+                        <div class="clear"></div>
+                }
+            </article>
+            <article>
+            <!-- START LEAVE A COMMENT -->
+            <div class="clear">
+            </div>
+
+            @using (@Ajax.BeginForm("Comment", "Room", new AjaxOptions { InsertionMode = InsertionMode.Replace, UpdateTargetId = "ketquaComment" }, new { id = "IdformComment" }))
+            {
+                @Html.ValidationSummary(true)
+            
+                <div class="comment_wrap">
+                    <input type = "text" style  ="visibility:hidden" value = "@Model.RoomID" name = "RoomID" />
+                </div>
+                <div class="textarea_wrap">
+                    <label for="message">@ViewRes.Resource.Comments</label>
+                    <textarea name="message" id="message" cols="70" rows="6"></textarea>
+                    <input type="submit" id="Send" value="Bình luận" />
+                </div>
+            }
+
+            <div class="clear">
+            </div>
+                </article>
+            <!-- END LEAVE A COMMENT -->
+        </div>
+    </div>
+</div>
+
+<!-- end of center content -->
+<div id="sidebar" class="col-1-3">
+    <div class="wrap-col">
+        @if (ViewBag.Ad != null)
+        {
+            foreach (var itemad in ViewBag.Ad)
+            { 
+            <div class="Quangcao">
+                <a href ="@itemad.URL">
+                    <img src ="@itemad.Image" />
+                </a>
+            </div>
+            }
+        }
+        <div class="Quangcao">
+            <div class="titleRightBar">@ViewRes.Resource.OnlineSupport</div>
+            <a href="@ViewBag.YH">
+                <img border="0" src="http://opi.yahoo.com/online?u=hero_vq109&m=g&t=6" /></a>
+        </div>
+        <div class="Quangcao">
+            <div class="titleRightBar">@ViewRes.Resource.Visitors</div>
+            <!-- GoStats Simple HTML Based Code -->
+            <a target="_blank" title="Đếm Web" href="http://gostats.vn">
+                <img alt="Đếm Web"
+                    src="http://c5.gostats.vn/bin/count/a_1065023/t_4/i_1/z_0/show_hits/counter.png"
+                    style="border-width: 0" /></a>
+            <!-- End GoStats Simple HTML Based Code -->
+
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+    var latitude = parseFloat(@Model.Lat.ToString())
+    var longtitude = parseFloat(@Model.Long.ToString())
+    window.onload = initialize()
+    function initialize() {
+
+        var mapOptions = {
+            center: new google.maps.LatLng(latitude, longtitude),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+          mapOptions);
+
+        // create a marker  
+        var latlng = new google.maps.LatLng(latitude, longtitude);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: 'Latitude: ' + latlng.Ya + ' Longitude :' + latlng.Za,
+            draggable: true
+        });
+
+        infoWindow = new google.maps.InfoWindow({
+            content: ""
+        });
+        infoWindow.open(map, marker);
+        geocoder = new google.maps.Geocoder();
+        //Update postal address when the marker is dragged  
+        google.maps.event.addListener(marker, 'dragend', function () { //dragend  
+            geocoder.geocode({ latLng: marker.getPosition() }, function (responses) {
+                if (responses && responses.length > 0) {
+                    infoWindow.setContent(
+                    "<div style=\"font-size:smaller;\">" + responses[0].formatted_address
+                    + "<br />"
+                    + "Latitude: " + marker.getPosition().lat() + "&nbsp"
+                    + "Longitude: " + marker.getPosition().lng() + "</div>"
+                    );
+                    infoWindow.open(map, marker);
+                } else {
+                    alert('Error: Google Maps could not determine the address of this location.');
+                }
+            });
+            map.panTo(marker.getPosition());
+        });
+        // Close the marker window when being dragged  
+        google.maps.event.addListener(marker, 'dragstart', function () {
+            infoWindow.close(map, marker);
+        });
+        infoWindow.open(map, marker);
+    }
+</script>

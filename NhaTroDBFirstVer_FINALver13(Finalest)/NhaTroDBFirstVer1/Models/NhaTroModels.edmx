@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="NhaTroModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="NhaTroModelStoreContainer">
+          <EntitySet Name="Advertise" EntityType="NhaTroModel.Store.Advertise" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Comment" EntityType="NhaTroModel.Store.Comment" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="QLHoTro" EntityType="NhaTroModel.Store.QLHoTro" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="QLTDD" EntityType="NhaTroModel.Store.QLTDD" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Room" EntityType="NhaTroModel.Store.Room" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="RoomStatus" EntityType="NhaTroModel.Store.RoomStatus" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="User" EntityType="NhaTroModel.Store.User" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Advertise_User" Association="NhaTroModel.Store.FK_Advertise_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Advertise" EntitySet="Advertise" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_Room" Association="NhaTroModel.Store.FK_Comment_Room">
+            <End Role="Room" EntitySet="Room" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_User" Association="NhaTroModel.Store.FK_Comment_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QLTDD_Room" Association="NhaTroModel.Store.FK_QLTDD_Room">
+            <End Role="Room" EntitySet="Room" />
+            <End Role="QLTDD" EntitySet="QLTDD" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QLTDD_User" Association="NhaTroModel.Store.FK_QLTDD_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="QLTDD" EntitySet="QLTDD" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Room_RoomStatus" Association="NhaTroModel.Store.FK_Room_RoomStatus">
+            <End Role="RoomStatus" EntitySet="RoomStatus" />
+            <End Role="Room" EntitySet="Room" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Room_User" Association="NhaTroModel.Store.FK_Room_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Room" EntitySet="Room" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Advertise">
+          <Key>
+            <PropertyRef Name="AdID" />
+          </Key>
+          <Property Name="AdID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="URL" Type="nvarchar" MaxLength="200" />
+          <Property Name="Image" Type="nvarchar" MaxLength="200" />
+          <Property Name="AdminID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="CommentID" />
+          </Key>
+          <Property Name="CommentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Contents" Type="nvarchar" MaxLength="500" />
+          <Property Name="Time" Type="datetime" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="RoomID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="QLHoTro">
+          <Key>
+            <PropertyRef Name="HoTroID" />
+          </Key>
+          <Property Name="HoTroID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="QLHoTro" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="AdminID" Type="int" />
+          <Property Name="Currents" Type="varchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="QLTDD">
+          <Key>
+            <PropertyRef Name="TinDDID" />
+          </Key>
+          <Property Name="TinDDID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="RoomID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Room">
+          <Key>
+            <PropertyRef Name="RoomID" />
+          </Key>
+          <Property Name="RoomID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="RoomName" Type="nvarchar" MaxLength="100" />
+          <Property Name="StartDate" Type="date" />
+          <Property Name="Address" Type="nvarchar" MaxLength="100" />
+          <Property Name="Price" Type="float" />
+          <Property Name="Description" Type="nvarchar" MaxLength="200" />
+          <Property Name="Area" Type="float" />
+          <Property Name="Image" Type="varchar" MaxLength="200" />
+          <Property Name="Moreinfo" Type="nvarchar" MaxLength="100" />
+          <Property Name="UserID" Type="int" Nullable="false" />
+          <Property Name="Long" Type="float" />
+          <Property Name="Lat" Type="float" />
+          <Property Name="RoomStatus" Type="int" Nullable="false" />
+          <Property Name="HoVaTen" Type="nvarchar" MaxLength="100" />
+          <Property Name="DiaChi" Type="nvarchar" MaxLength="200" />
+          <Property Name="SDT" Type="varchar" MaxLength="12" />
+        </EntityType>
+        <EntityType Name="RoomStatus">
+          <Key>
+            <PropertyRef Name="StatusID" />
+          </Key>
+          <Property Name="StatusID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Contents" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="varchar" MaxLength="100" />
+          <Property Name="Email" Type="varchar" MaxLength="100" />
+          <Property Name="PhoneNumber" Type="varchar" MaxLength="12" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Address" Type="nvarchar" MaxLength="200" />
+          <Property Name="Roles" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <Association Name="FK_Advertise_User">
+          <End Role="User" Type="NhaTroModel.Store.User" Multiplicity="1" />
+          <End Role="Advertise" Type="NhaTroModel.Store.Advertise" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Advertise">
+              <PropertyRef Name="AdminID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_Room">
+          <End Role="Room" Type="NhaTroModel.Store.Room" Multiplicity="1" />
+          <End Role="Comment" Type="NhaTroModel.Store.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Room">
+              <PropertyRef Name="RoomID" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="RoomID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_User">
+          <End Role="User" Type="NhaTroModel.Store.User" Multiplicity="1" />
+          <End Role="Comment" Type="NhaTroModel.Store.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QLTDD_Room">
+          <End Role="Room" Type="NhaTroModel.Store.Room" Multiplicity="1" />
+          <End Role="QLTDD" Type="NhaTroModel.Store.QLTDD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Room">
+              <PropertyRef Name="RoomID" />
+            </Principal>
+            <Dependent Role="QLTDD">
+              <PropertyRef Name="RoomID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QLTDD_User">
+          <End Role="User" Type="NhaTroModel.Store.User" Multiplicity="1" />
+          <End Role="QLTDD" Type="NhaTroModel.Store.QLTDD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="QLTDD">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Room_RoomStatus">
+          <End Role="RoomStatus" Type="NhaTroModel.Store.RoomStatus" Multiplicity="1" />
+          <End Role="Room" Type="NhaTroModel.Store.Room" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RoomStatus">
+              <PropertyRef Name="StatusID" />
+            </Principal>
+            <Dependent Role="Room">
+              <PropertyRef Name="RoomStatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Room_User">
+          <End Role="User" Type="NhaTroModel.Store.User" Multiplicity="1" />
+          <End Role="Room" Type="NhaTroModel.Store.Room" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Room">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NhaTroModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="NhaTroEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Advertise" EntityType="NhaTroModel.Advertise" />
+          <EntitySet Name="Comment" EntityType="NhaTroModel.Comment" />
+          <EntitySet Name="Room" EntityType="NhaTroModel.Room" />
+          <EntitySet Name="RoomStatus" EntityType="NhaTroModel.RoomStatus" />
+          <EntitySet Name="User" EntityType="NhaTroModel.User" />
+          <AssociationSet Name="FK_Advertise_User" Association="NhaTroModel.FK_Advertise_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Advertise" EntitySet="Advertise" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_User" Association="NhaTroModel.FK_Comment_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Room_RoomStatus" Association="NhaTroModel.FK_Room_RoomStatus">
+            <End Role="RoomStatus" EntitySet="RoomStatus" />
+            <End Role="Room" EntitySet="Room" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Room_User" Association="NhaTroModel.FK_Room_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="Room" EntitySet="Room" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_Room" Association="NhaTroModel.FK_Comment_Room">
+            <End Role="Room" EntitySet="Room" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <EntitySet Name="QLHoTroes" EntityType="NhaTroModel.QLHoTro" />
+          <EntitySet Name="QLTDDs" EntityType="NhaTroModel.QLTDD" />
+          <AssociationSet Name="FK_QLHoTro_User" Association="NhaTroModel.FK_QLHoTro_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="QLHoTro" EntitySet="QLHoTroes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QLTDD_User" Association="NhaTroModel.FK_QLTDD_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="QLTDD" EntitySet="QLTDDs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_QLTDD_Room" Association="NhaTroModel.FK_QLTDD_Room">
+            <End Role="Room" EntitySet="Room" />
+            <End Role="QLTDD" EntitySet="QLTDDs" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Advertise">
+          <Key>
+            <PropertyRef Name="AdID" />
+          </Key>
+          <Property Name="AdID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="URL" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="Image" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="AdminID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="NhaTroModel.FK_Advertise_User" FromRole="Advertise" ToRole="User" />
+        </EntityType>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="CommentID" />
+          </Key>
+          <Property Name="CommentID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="Time" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="User" Relationship="NhaTroModel.FK_Comment_User" FromRole="Comment" ToRole="User" />
+          <Property Type="String" Name="Contents" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="RoomID" Nullable="false" />
+          <NavigationProperty Name="Room" Relationship="NhaTroModel.FK_Comment_Room" FromRole="Comment" ToRole="Room" />
+        </EntityType>
+        <EntityType Name="Room">
+          <Key>
+            <PropertyRef Name="RoomID" />
+          </Key>
+          <Property Name="RoomID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="RoomName" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="StartDate" Type="DateTime" Precision="0" />
+          <Property Name="Address" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Price" Type="Double" />
+          <Property Name="Description" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="Area" Type="Double" />
+          <Property Name="Image" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <Property Name="Moreinfo" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="UserID" Type="Int32" Nullable="false" />
+          <Property Name="RoomStatus" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="RoomStatus1" Relationship="NhaTroModel.FK_Room_RoomStatus" FromRole="Room" ToRole="RoomStatus" />
+          <NavigationProperty Name="User" Relationship="NhaTroModel.FK_Room_User" FromRole="Room" ToRole="User" />
+          <Property Type="Double" Name="Long"/>
+          <Property Type="Double" Name="Lat"/>
+          <Property Type="String" Name="HoVaTen" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="DiaChi" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="SDT" MaxLength="12" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Comments" Relationship="NhaTroModel.FK_Comment_Room" FromRole="Room" ToRole="Comment" />
+          <NavigationProperty Name="QLTDDs" Relationship="NhaTroModel.FK_QLTDD_Room" FromRole="Room" ToRole="QLTDD" />
+        </EntityType>
+        <EntityType Name="RoomStatus">
+          <Key>
+            <PropertyRef Name="StatusID" />
+          </Key>
+          <Property Name="StatusID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="Room" Relationship="NhaTroModel.FK_Room_RoomStatus" FromRole="RoomStatus" ToRole="Room" />
+          <Property Type="String" Name="Contents" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="Email" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="12" Unicode="false" FixedLength="false" />
+          <Property Name="FullName" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="Roles" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Advertise" Relationship="NhaTroModel.FK_Advertise_User" FromRole="User" ToRole="Advertise" />
+          <NavigationProperty Name="Comment" Relationship="NhaTroModel.FK_Comment_User" FromRole="User" ToRole="Comment" />
+          <NavigationProperty Name="Room" Relationship="NhaTroModel.FK_Room_User" FromRole="User" ToRole="Room" />
+          <NavigationProperty Name="QLHoTroes" Relationship="NhaTroModel.FK_QLHoTro_User" FromRole="User" ToRole="QLHoTro" />
+          <NavigationProperty Name="QLTDDs" Relationship="NhaTroModel.FK_QLTDD_User" FromRole="User" ToRole="QLTDD" />
+        </EntityType>
+        <Association Name="FK_Advertise_User">
+          <End Role="User" Type="NhaTroModel.User" Multiplicity="1" />
+          <End Role="Advertise" Type="NhaTroModel.Advertise" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Advertise">
+              <PropertyRef Name="AdminID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_User">
+          <End Role="User" Type="NhaTroModel.User" Multiplicity="1" />
+          <End Role="Comment" Type="NhaTroModel.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Room_RoomStatus">
+          <End Role="RoomStatus" Type="NhaTroModel.RoomStatus" Multiplicity="1" />
+          <End Role="Room" Type="NhaTroModel.Room" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="RoomStatus">
+              <PropertyRef Name="StatusID" />
+            </Principal>
+            <Dependent Role="Room">
+              <PropertyRef Name="RoomStatus" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Room_User">
+          <End Role="User" Type="NhaTroModel.User" Multiplicity="1" />
+          <End Role="Room" Type="NhaTroModel.Room" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="Room">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_Room">
+          <End Type="NhaTroModel.Room" Role="Room" Multiplicity="1" />
+          <End Type="NhaTroModel.Comment" Role="Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Room">
+              <PropertyRef Name="RoomID" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="RoomID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="QLHoTro">
+          <Key>
+            <PropertyRef Name="HoTroID" />
+          </Key>
+          <Property Type="Int32" Name="HoTroID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="QLHoTro1" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="AdminID" />
+          <NavigationProperty Name="User" Relationship="NhaTroModel.FK_QLHoTro_User" FromRole="QLHoTro" ToRole="User" />
+          <Property Type="String" Name="Currents" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="QLTDD">
+          <Key>
+            <PropertyRef Name="TinDDID" />
+          </Key>
+          <Property Type="Int32" Name="TinDDID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="UserID" Nullable="false" />
+          <Property Type="Int32" Name="RoomID" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="NhaTroModel.FK_QLTDD_User" FromRole="QLTDD" ToRole="User" />
+          <NavigationProperty Name="Room" Relationship="NhaTroModel.FK_QLTDD_Room" FromRole="QLTDD" ToRole="Room" />
+        </EntityType>
+        <Association Name="FK_QLHoTro_User">
+          <End Type="NhaTroModel.User" Role="User" Multiplicity="0..1" />
+          <End Type="NhaTroModel.QLHoTro" Role="QLHoTro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="QLHoTro">
+              <PropertyRef Name="AdminID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QLTDD_User">
+          <End Type="NhaTroModel.User" Role="User" Multiplicity="1" />
+          <End Type="NhaTroModel.QLTDD" Role="QLTDD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="UserID" />
+            </Principal>
+            <Dependent Role="QLTDD">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_QLTDD_Room">
+          <End Type="NhaTroModel.Room" Role="Room" Multiplicity="1" />
+          <End Type="NhaTroModel.QLTDD" Role="QLTDD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Room">
+              <PropertyRef Name="RoomID" />
+            </Principal>
+            <Dependent Role="QLTDD">
+              <PropertyRef Name="RoomID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NhaTroModelStoreContainer" CdmEntityContainer="NhaTroEntities">
+          <EntitySetMapping Name="Advertise">
+            <EntityTypeMapping TypeName="NhaTroModel.Advertise">
+              <MappingFragment StoreEntitySet="Advertise">
+                <ScalarProperty Name="AdID" ColumnName="AdID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Comment">
+            <EntityTypeMapping TypeName="NhaTroModel.Comment">
+              <MappingFragment StoreEntitySet="Comment">
+                <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+                <ScalarProperty Name="Contents" ColumnName="Contents" />
+                <ScalarProperty Name="CommentID" ColumnName="CommentID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Room">
+            <EntityTypeMapping TypeName="NhaTroModel.Room">
+              <MappingFragment StoreEntitySet="Room">
+                <ScalarProperty Name="SDT" ColumnName="SDT" />
+                <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+                <ScalarProperty Name="HoVaTen" ColumnName="HoVaTen" />
+                <ScalarProperty Name="Lat" ColumnName="Lat" />
+                <ScalarProperty Name="Long" ColumnName="Long" />
+                <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+                <ScalarProperty Name="RoomName" ColumnName="RoomName" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Area" ColumnName="Area" />
+                <ScalarProperty Name="Image" ColumnName="Image" />
+                <ScalarProperty Name="Moreinfo" ColumnName="Moreinfo" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="RoomStatus" ColumnName="RoomStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="RoomStatus">
+            <EntityTypeMapping TypeName="NhaTroModel.RoomStatus">
+              <MappingFragment StoreEntitySet="RoomStatus">
+                <ScalarProperty Name="Contents" ColumnName="Contents" />
+                <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="User">
+            <EntityTypeMapping TypeName="NhaTroModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Roles" ColumnName="Roles" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="QLHoTroes">
+            <EntityTypeMapping TypeName="NhaTroModel.QLHoTro">
+              <MappingFragment StoreEntitySet="QLHoTro">
+                <ScalarProperty Name="Currents" ColumnName="Currents" />
+                <ScalarProperty Name="AdminID" ColumnName="AdminID" />
+                <ScalarProperty Name="QLHoTro1" ColumnName="QLHoTro" />
+                <ScalarProperty Name="HoTroID" ColumnName="HoTroID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="QLTDDs">
+            <EntityTypeMapping TypeName="NhaTroModel.QLTDD">
+              <MappingFragment StoreEntitySet="QLTDD">
+                <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="TinDDID" ColumnName="TinDDID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram DiagramId="c7435d9b69a54e14ba409bb55d1b0557" Name="Diagram1">
+        <EntityTypeShape EntityType="NhaTroModel.Advertise" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaTroModel.Comment" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaTroModel.Room" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaTroModel.RoomStatus" Width="1.5" PointX="3.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaTroModel.User" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaTroModel.QLHoTro" Width="1.5" PointX="3" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaTroModel.QLTDD" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
+        <AssociationConnector Association="NhaTroModel.FK_Advertise_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaTroModel.FK_Comment_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaTroModel.FK_Room_RoomStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaTroModel.FK_Room_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaTroModel.FK_Comment_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaTroModel.FK_QLHoTro_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaTroModel.FK_QLTDD_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaTroModel.FK_QLTDD_Room" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

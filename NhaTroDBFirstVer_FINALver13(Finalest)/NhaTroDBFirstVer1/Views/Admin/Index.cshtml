@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if(ViewBag.data!=null)
+{
+    foreach (var item in ViewBag.data)
+    {
+        @item.UserName @:|@*@:de xac dinh | la ky tu binh thuong*@ @item.Password | @item.Roles <br/>
+    }
+}
+

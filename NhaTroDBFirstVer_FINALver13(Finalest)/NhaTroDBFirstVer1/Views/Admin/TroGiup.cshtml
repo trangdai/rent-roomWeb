@@ -1,0 +1,38 @@
+﻿@model IEnumerable<NhaTroDBFirstVer1.Models.QLHoTro>
+
+@{
+    ViewBag.Title = "TroGiup";
+}
+
+<h2>Index</h2>
+
+<table>
+    <tr>
+        <th>
+            Tài khoản trợ giúp |
+        </th>
+        
+    </tr>
+    
+    
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.QLHoTro1)
+        </td>
+            <td>
+           
+            @Html.ActionLink("Đặt làm hỗ trợ hiện hành", "SetSupport", new { id=item.HoTroID }) |
+            </td>
+
+    </tr>
+}
+
+</table>
+
+@using (Html.BeginForm("AddSupport","Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {               
+            <input id="mach" type ="text" name ="abc"/>
+            @Html.ActionLink("Thêm tài khoản hỗ trợ", "AddSupport")
+                
+    }

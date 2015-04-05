@@ -1,0 +1,34 @@
+﻿@model NhaTroDBFirstVer1.Models.Room
+
+<article>
+    @foreach (var item in ViewBag.Comment)
+    {
+        <span class="info">@item.Time</span>
+        <img src="/Content/themes/base/images/images.jpg" alt="" />
+        <p>@item.Contents</p>
+        <div class="clear"></div>
+    }
+</article>
+<article>
+    <!-- START LEAVE A COMMENT -->
+    <div class="clear">
+    </div>
+
+    @using (@Ajax.BeginForm("Comment", "Room", new AjaxOptions { InsertionMode = InsertionMode.Replace, UpdateTargetId = "ketquaComment" }, new { id = "IdformComment" }))
+    {
+        @Html.ValidationSummary(true)
+            
+        <div class="comment_wrap">
+            <input type = "text" style  ="visibility:hidden" value = "@Model.RoomID" name = "RoomID" />
+        </div>
+        <div class="textarea_wrap">
+            <label for="message">@ViewRes.Resource.Comments</label>
+            <textarea name="message" id="message" cols="70" rows="6"></textarea>
+            <input type="submit" id="Send" value="Bình luận" />
+        </div>
+    }
+
+    <div class="clear">
+    </div>
+</article>
+<!-- END LEAVE A COMMENT -->

@@ -1,0 +1,67 @@
+﻿@model NhaTroDBFirstVer1.Models.User
+
+@{
+    ViewBag.Title = "Edit";
+}
+@Html.Partial("UserControlPartial")
+<div class="center_content_control">
+    <div class="center_title_bar">cập nhật tài khoản</div>
+
+    <div class="prod_box_big">
+        <div class="top_prod_box_big"></div>
+        <div class="center_prod_box_big">
+            <div class="contact_form">
+                @using (Html.BeginForm())
+                {
+                    @Html.ValidationSummary(true)
+
+                    @Html.HiddenFor(model => model.UserID)
+                    @Html.HiddenFor(model => model.UserName)
+                    @Html.HiddenFor(model => model.Password)
+                    @Html.HiddenFor(model => model.Roles)
+                    <div class="form_row">
+                        <label class="contact"><strong>Họ và tên:</strong></label>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.FullName)
+                            @Html.ValidationMessageFor(model => model.FullName)
+                        </div>
+                    </div>
+                    
+                    <div class="form_row">
+                        <label class="contact"><strong>Số điện thoại:</strong></label>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.PhoneNumber)
+                            @Html.ValidationMessageFor(model => model.PhoneNumber)
+                        </div>
+                    </div>
+                    
+                    <div class="form_row">
+                        <label class="contact"><strong>Email:</strong></label>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.Email)
+                            @Html.ValidationMessageFor(model => model.Email)
+                        </div>
+                    </div>
+                    
+                    <div class="form_row">
+                        <label class="contact"><strong>Địa chỉ:</strong></label>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.Address)
+                            @Html.ValidationMessageFor(model => model.Address)
+                        </div>
+                    </div>
+
+                    
+                    <p>
+                        <input type="submit" value="Cập nhật Thông Tin" />
+                    </p>
+
+                }
+            </div>
+
+
+        </div>
+        <div class="bottom_prod_box_big"></div>
+    </div>
+</div>
+<!-- end of center content -->

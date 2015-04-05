@@ -1,0 +1,126 @@
+﻿@*@model IEnumerable<NhaTroDBFirstVer1.Models.Room>*@
+@model PagedList.IPagedList<NhaTroDBFirstVer1.Models.Room>
+
+@{
+    ViewBag.Title = "SearchIndex";
+}
+
+<div id="main-content" class="col-2-3">
+    <div class="wrap-col">
+        <p>
+            <div class="comment">
+            @Html.ActionLink("Create New", "Create")
+            @using (Html.BeginForm("SearchIndex", "Room", FormMethod.Get))
+            {               
+                <div class="input_search">
+                    Quan: @Html.DropDownList("Quan", "All")</div>
+                <div class="input_search">
+                   <div>Gia : </div>
+                    <div class="value"> @Html.TextBox("giaMin")
+                     toi: @Html.TextBox("giaMax")</div>
+                </div>
+                <div class="input_search">
+                   <div>Dien tich : </div>
+                    <div class="value">  @Html.TextBox("SMin") toi @Html.TextBox("SMax")</div>
+                </div>
+                 <div > <input style="float:left; margin-left:150px;" type="submit" value="filter" /></div>
+                
+            }
+                </div>
+        </p>
+        @foreach (var item in Model)
+        {
+            <div class="form_row_listBooks">
+                <label class="listBookTitle"><strong>@Html.DisplayNameFor(model => model.First().RoomName)</strong></label>
+                <label class="contact_input"><strong>@Html.DisplayFor(modelItem => item.RoomName)</strong></label>
+            </div>
+
+            <div class="form_row_listBooks">
+                <label class="listBookTitle"><strong>@Html.DisplayNameFor(model => model.First().StartDate)</strong></label>
+                <label class="contact_input"><strong>@Html.DisplayFor(modelItem => item.StartDate)</strong></label>
+            </div>
+
+            <div class="form_row_listBooks">
+                <label class="listBookTitle"><strong>@Html.DisplayNameFor(model => model.First().Address)</strong></label>
+                <label class="contact_input"><strong>@Html.DisplayFor(modelItem => item.Address)</strong></label>
+            </div>
+
+            <div class="form_row_listBooks">
+                <label class="listBookTitle"><strong>@Html.DisplayNameFor(model => model.First().Price)</strong></label>
+                <label class="contact_input"><strong>@Html.DisplayFor(modelItem => item.Price)</strong></label>
+            </div>
+    
+            <div class="form_row_listBooks">
+                <label class="listBookTitle"><strong>@Html.DisplayNameFor(model => model.First().Description)</strong></label>
+                <label class="contact_input"><strong>@Html.DisplayFor(modelItem => item.Description)</strong></label>
+            </div>
+            <div class="bntNhap">@Html.ActionLink("Details", "Details", new { id = item.RoomID }) </div> 
+
+            <br />
+            <hr />
+    
+        }
+        <div>
+            Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+            of @Model.PageCount
+
+            @if (Model.HasPreviousPage)
+            {
+                @Html.ActionLink("<<", "SearchIndex", new { page = 1 })
+                @Html.Raw(" ");
+                @Html.ActionLink("< Prev", "SearchIndex", new { page = Model.PageNumber - 1 })
+            }
+            else
+            {
+                @:<<
+                @Html.Raw(" ");
+                @:< Prev
+            }
+
+            @if (Model.HasNextPage)
+            {
+                @Html.ActionLink("Next >", "SearchIndex", new { page = Model.PageNumber + 1 })
+                @Html.Raw(" ");
+                @Html.ActionLink(">>", "SearchIndex", new { page = Model.PageCount })
+            }
+            else
+            {
+                @:Next >
+                @Html.Raw(" ")
+                @:>>
+            }
+        </div>
+
+    </div>
+</div>
+
+<div id="sidebar" class="col-1-3">
+    <div class="wrap-col">
+        @if (ViewBag.Ad != null)
+        {
+            foreach (var itemad in ViewBag.Ad)
+            { 
+            <div class="Quangcao">
+                <a href ="@itemad.URL">
+                    <img src ="@itemad.Image" />
+                </a>
+            </div>
+            }
+        }
+        <div class="Quangcao">
+            <div class="titleRightBar">@ViewRes.Resource.OnlineSupport</div>
+                <a href="@ViewBag.YH">
+                    <img border="0" src="http://opi.yahoo.com/online?u=hero_vq109&m=g&t=6" /></a>
+        </div>
+        <div class="Quangcao">
+            <div class="titleRightBar">@ViewRes.Resource.Visitors</div>
+            <!-- GoStats Simple HTML Based Code -->
+            <a target="_blank" title="Đếm Web" href="http://gostats.vn"><img alt="Đếm Web" 
+            src="http://c5.gostats.vn/bin/count/a_1065023/t_4/i_1/z_0/show_hits/counter.png" 
+            style="border-width:0" /></a>
+            <!-- End GoStats Simple HTML Based Code -->  
+                                    
+        </div>
+        
+    </div>
+</div>

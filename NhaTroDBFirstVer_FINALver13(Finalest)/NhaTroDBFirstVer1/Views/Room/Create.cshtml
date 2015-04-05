@@ -1,0 +1,175 @@
+﻿@model NhaTroDBFirstVer1.Models.Room
+
+@{
+    ViewBag.Title = "DangTin";
+}
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClsqqIJZz4ANTtAQPWb6SzdDeyQ7TJOZM&sensor=false"></script>
+@Html.Partial("UserControlPartial")
+
+<h1>THÊM PHÒNG TRỌ</h1>
+        <div class="contact_form">
+            @using (Html.BeginForm("Create", "Room", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.ValidationSummary(true)@*hien thi cac loi thong bao*/true de khong hien thi nhung loi o ben duoi*@
+                <div>
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Tiêu đề:</strong></label>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.RoomName)
+                            @Html.ValidationMessageFor(model => model.RoomName)
+                        </div>
+                    </div>
+
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Giá phòng:</strong></label>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.Price)
+                            @Html.ValidationMessageFor(model => model.Price)
+                        </div>
+                    </div>
+
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Địa chỉ:</strong></label>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.Address)
+                            @Html.ValidationMessageFor(model => model.Address)
+                        </div>
+                    </div>
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Diện tích:</strong></label>
+                        <div class="editor-field">
+                            @Html.EditorFor(model => model.Area)
+                            @Html.ValidationMessageFor(model => model.Area)
+                        </div>
+                    </div>
+
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Mô tả:</strong></label>
+                        @Html.EditorFor(model => model.Description)
+                        @Html.ValidationMessageFor(model => model.Description)
+                    </div>
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Hình ảnh:</strong></label>                                          
+                          <label for="file1">Filename:</label>
+                          <input type="file" name="files" id="file1" />
+                    </div>
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Trạng thái phòng:</strong></label>
+                        <div class="editor-field">
+                            @Html.DropDownList("RoomStatus", String.Empty)
+                            @Html.ValidationMessageFor(model => model.RoomStatus)
+                        </div>
+                    </div>
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Thông tin liên hệ</strong></label>
+                    </div>
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Tên:</strong></label>
+                        @Html.EditorFor(model => model.HoVaTen)
+                        @Html.ValidationMessageFor(model => model.HoVaTen)
+                    </div>
+
+                    <div class="form_row">
+                        <label class="contact"><strong>Địa chỉ:</strong></label>
+                        @Html.EditorFor(model => model.DiaChi)
+                        @Html.ValidationMessageFor(model => model.DiaChi)
+                    </div>
+
+                    <div class="form_row">
+                        <label class="contact"><strong>SĐT:</strong></label>
+                        @Html.EditorFor(model => model.SDT)
+                        @Html.ValidationMessageFor(model => model.SDT)
+                    </div>
+
+
+                  @*  <div class="form_row">
+                        <label class="contact"><strong>Bản đồ</strong></label>
+                        <input type="button" value="xem ban do" onclick ="initialize()" />
+                    </div>*@
+                    <div>
+
+                        <input type="text" id="lat" readonly="true" name="latitude" />
+                        <input type="text" id="long" readonly="true" name="longtitude" />
+
+                    </div>
+                    <br />
+                    <div id="map_canvas" style="height: 480px;"></div>
+                    <br />
+
+
+                    <input type="submit" value="Create" />
+                </div>
+
+            }
+        </div>
+
+<!-- end of center content -->
+<script type="text/javascript">
+   
+    window.onload = initialize();
+
+    function initialize() {
+        $("#lat").val(10.770242)
+        $("#long").val(106.659122)
+        var mapOptions = {
+            center: new google.maps.LatLng(10.770242, 106.659122),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+
+        // create a marker  
+        var latlng = new google.maps.LatLng(10.770242, 106.659122);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: 'Latitude: ' + latlng.Ya + ' Longitude :' + latlng.Za,
+            draggable: true
+        });
+        infoWindow = new google.maps.InfoWindow({
+            content: ""
+        });
+        infoWindow.open(map, marker);
+        geocoder = new google.maps.Geocoder();
+        //Update postal address when the marker is dragged  
+        google.maps.event.addListener(marker, 'dragend', function () { //dragend  
+            geocoder.geocode({ latLng: marker.getPosition() }, function (responses) {
+                if (responses && responses.length > 0) {
+                    infoWindow.setContent(
+                    "<div style=\"font-size:smaller;\">" + responses[0].formatted_address
+                    + "<br />"
+                    + "Latitude: " + marker.getPosition().lat() + "&nbsp"
+                    + "Longitude: " + marker.getPosition().lng() + "</div>"
+                    );
+                    var latitude = marker.getPosition().lat()
+                    $("#lat").val(latitude)
+                    var longtitude = marker.getPosition().lng()
+                    $("#long").val(longtitude)
+                    infoWindow.open(map, marker);
+                } else {
+                    alert('Error: Google Maps could not determine the address of this location.');
+                }
+            });
+            map.panTo(marker.getPosition());
+        });
+        // Close the marker window when being dragged  
+        google.maps.event.addListener(marker, 'dragstart', function () {
+            infoWindow.close(map, marker);
+        });
+
+
+
+        infoWindow.open(map, marker);
+    }
+</script>

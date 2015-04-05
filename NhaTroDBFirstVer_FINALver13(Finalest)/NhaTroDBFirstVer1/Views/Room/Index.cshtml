@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<div class="center_content">
+	<div class="center_title_bar">Danh sách tin mới</div>
+    <br />
+  @if (ViewBag.Tin != null)
+    {
+        foreach(var item in ViewBag.Tin)
+        {
+            <div class="form_row_listBooks">
+                <label class="contact_input"><strong>@item.RoomName</strong></label>
+            </div>
+            <div class="form_row_listBooks">
+                <label class="listBookTitle"><strong>Diện tích:</strong></label>
+                <label class="contact_input"><strong>@item.Area</strong></label>
+            </div>
+            <div class="form_row_listBooks">
+                <label class="listBookTitle"><strong>Địa chỉ:</strong></label>
+                <label class="contact_input"><strong>@item.Address</strong></label>
+            </div>
+            <div class="form_row_listBooks">
+                <label class="listBookTitle"><strong>Giá:</strong></label>
+                <label class="contact_input"><strong>@item.Price</strong></label>
+            </div>
+            @Html.ActionLink("MoreDetails", "Details", new { id = item.RoomID })
+             <br/>
+            <hr/>
+        }
+    }
+</div>
+    

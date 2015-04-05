@@ -1,0 +1,29 @@
+﻿@model NhaTroDBFirstVer1.Models.RoomStatus
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>RoomStatus</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.StatusID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.StatusID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Contents)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Contents)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

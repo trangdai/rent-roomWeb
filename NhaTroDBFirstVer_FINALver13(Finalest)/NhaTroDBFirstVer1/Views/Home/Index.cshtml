@@ -1,0 +1,94 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+@Scripts.Render("~/Scripts/jquery.min.js")
+@Scripts.Render("~/Scripts/responsiveslides.js")
+@Scripts.Render("~/bundles/jqueryval")
+<script>
+    $(function () {
+        $("#slider").responsiveSlides({
+            auto: true,
+            pager: false,
+            nav: true,
+            speed: 500,
+            maxwidth: 962,
+            namespace: "centered-btns"
+        });
+    });
+</script>
+
+<div id="main-content" class="col-2-3">
+    <div class="wrap-col">
+        <div class="featured">
+            <div class="slider">
+                <div class="rslides_container">
+                    <ul class="rslides" id="slider">
+                        @if (ViewBag.Img != null)
+                        {
+                            foreach (var item1 in ViewBag.Img)
+                            {
+                            <li>
+                                <a href="/vi/Room/Details/@item1.RoomID"><img src="@item1.Image" /></a>
+                                <h2><a href="/vi/Room/Details/@item1.RoomID">@item1.RoomName</a></h2>
+                                <span class="info">@item1.StartDate</span>
+                                <p>@ViewRes.Resource.Address : @item1.Address</p>
+                                <p>@ViewRes.Resource.Price : @item1.Price</p>
+                                <p>@ViewRes.Resource.Description : @item1.Description</p>
+
+                            </li>
+                            }
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-col">
+        @if (ViewBag.Tin != null)
+        {
+            foreach (var item in ViewBag.Tin)
+            {
+            <article>
+                <img src="@item.Image"/>
+                <h2><a href="/vi/Room/Details/@item.RoomID">@item.RoomName</a></h2>
+                <span class="info">@item.StartDate</span>
+                <p>@ViewRes.Resource.Address : @item.Address</p>
+                <p>@ViewRes.Resource.Price : @item.Price</p>
+                <p>@ViewRes.Resource.Area : @item.Area m2</p>
+            </article>
+            }
+        }
+    </div>
+</div>
+
+<div id="sidebar" class="col-1-3">
+    <div class="wrap-col">
+        @if (ViewBag.Ad != null)
+        {
+            foreach (var itemad in ViewBag.Ad)
+            { 
+            <div class="Quangcao">
+                <a href ="@itemad.URL">
+                    <img src ="@itemad.Image" />
+                </a>
+            </div>
+            }
+        }
+        <div class="Quangcao">
+            <div class="titleRightBar">@ViewRes.Resource.OnlineSupport</div>
+                <a href="@ViewBag.YH">
+                    <img border="0" src="http://opi.yahoo.com/online?u=hero_vq109&m=g&t=6" /></a>
+        </div>
+        <div class="Quangcao">
+            <div class="titleRightBar">@ViewRes.Resource.Visitors</div>
+            <!-- GoStats Simple HTML Based Code -->
+            <a target="_blank" title="Đếm Web" href="http://gostats.vn"><img alt="Đếm Web" 
+            src="http://c5.gostats.vn/bin/count/a_1065023/t_4/i_1/z_0/show_hits/counter.png" 
+            style="border-width:0" /></a>
+            <!-- End GoStats Simple HTML Based Code -->  
+                                    
+        </div>
+        
+    </div>
+</div>

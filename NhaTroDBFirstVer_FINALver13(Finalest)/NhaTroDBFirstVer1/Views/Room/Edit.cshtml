@@ -1,0 +1,163 @@
+﻿@model NhaTroDBFirstVer1.Models.Room
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClsqqIJZz4ANTtAQPWb6SzdDeyQ7TJOZM&sensor=false"></script>
+<div class="comment">
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Room</legend>
+
+        @Html.HiddenFor(model => model.RoomID)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RoomName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.RoomName)
+            @Html.ValidationMessageFor(model => model.RoomName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.StartDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.StartDate)
+            @Html.ValidationMessageFor(model => model.StartDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Address)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Address)
+            @Html.ValidationMessageFor(model => model.Address)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Price)
+            @Html.ValidationMessageFor(model => model.Price)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Description)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Description)
+            @Html.ValidationMessageFor(model => model.Description)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Area)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Area)
+            @Html.ValidationMessageFor(model => model.Area)
+        </div>
+
+         @*<input type="button" value="xem ban do" onclick="initialize()" />*@
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Moreinfo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Moreinfo)
+            @Html.ValidationMessageFor(model => model.Moreinfo)
+        </div>
+
+            @Html.HiddenFor(model => model.UserID)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RoomStatus1, "RoomStatus")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("RoomStatus", String.Empty)
+            @Html.ValidationMessageFor(model => model.RoomStatus1)
+        </div>
+        <div>
+              
+                <input type="text" id="lat" readonly="true" name="latitude" />
+                <input type="text" id="long" readonly="true" name="longtitude" />
+
+            </div>
+        <br />
+            <div id="map_canvas" style="width: 640px; height: 480px;"></div>
+            <br />
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+    </div>
+<div>
+    @Html.ActionLink("Back to List", "DanhSachTinDang")
+</div>
+
+<script type="text/javascript">
+
+    window.onload = initialize()
+
+    $("#lat").val(@Model.Lat)
+    $("#long").val(@Model.Long)
+    function initialize() {
+        var oldlat = parseFloat(@Model.Lat.ToString())
+        var oldlong = parseFloat(@Model.Long.ToString())
+        var mapOptions = {
+            center: new google.maps.LatLng(oldlat, oldlong),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+
+        // create a marker  
+        var latlng = new google.maps.LatLng(oldlat, oldlong);
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: 'Latitude: ' + latlng.Ya + ' Longitude :' + latlng.Za,
+            draggable: true
+        });
+        infoWindow = new google.maps.InfoWindow({
+            content: ""
+        });
+        infoWindow.open(map, marker);
+        geocoder = new google.maps.Geocoder();
+        //Update postal address when the marker is dragged  
+        google.maps.event.addListener(marker, 'dragend', function () { //dragend  
+            geocoder.geocode({ latLng: marker.getPosition() }, function (responses) {
+                if (responses && responses.length > 0) {
+                    infoWindow.setContent(
+                    "<div style=\"font-size:smaller;\">" + responses[0].formatted_address
+                    + "<br />"
+                    + "Latitude: " + marker.getPosition().lat() + "&nbsp"
+                    + "Longitude: " + marker.getPosition().lng() + "</div>"
+                    );
+                    var latitude = marker.getPosition().lat()
+                    $("#lat").val(latitude)
+                    var longtitude = marker.getPosition().lng()
+                    $("#long").val(longtitude)
+                    infoWindow.open(map, marker);
+                } else {
+                    alert('Error: Google Maps could not determine the address of this location.');
+                }
+            });
+            map.panTo(marker.getPosition());
+        });
+        // Close the marker window when being dragged  
+        google.maps.event.addListener(marker, 'dragstart', function () {
+            infoWindow.close(map, marker);
+        });
+
+
+    }
+</script>

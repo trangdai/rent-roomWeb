@@ -1,0 +1,43 @@
+﻿@model NhaTroDBFirstVer1.Models.Advertise
+
+@{
+    ViewBag.Title = "Details";
+}
+@Html.Partial("AdminControlPartial")
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Advertise</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.AdID)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.AdID)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Title)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.URL)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.URL)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.User.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.User.UserName)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new {  id=Model.AdID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

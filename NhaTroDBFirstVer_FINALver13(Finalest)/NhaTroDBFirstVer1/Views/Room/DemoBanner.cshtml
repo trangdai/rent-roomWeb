@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "DemoBanner";
+}
+
+@if (ViewBag.Ads != null)
+{
+    for (int i = ViewBag.Ads.Count - 1; i > ViewBag.Ads.Count - 4; i--)
+    {
+        <div class="ads">
+            <a href="@ViewBag.Ads[i].URL" target="_blank"><img src="@ViewBag.Ads[i].Picture" /></a>
+        </div>
+    }
+}
